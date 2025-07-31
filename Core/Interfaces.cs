@@ -1,4 +1,4 @@
-namespace MegaToolbox
+namespace MegaToolbox.Core
 {
     public interface ITool
 {

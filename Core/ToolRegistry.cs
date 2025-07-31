@@ -1,14 +1,14 @@
-namespace MegaToolbox
+namespace MegaToolbox.Core
 {
     public static class ToolRegistry
-{
-    public static List<ITool> GetAllTools()
     {
-        return new List<ITool>
+        public static List<ITool> GetAllTools()
         {
-            // Tools Go Here.
-        };
+            return new List<ITool>
+            {
+                // Tools Go Here.
+            };
+        }
     }
-}
 
 }
